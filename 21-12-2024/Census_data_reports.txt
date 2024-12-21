@@ -1,0 +1,72 @@
+The main objective is to do analytical processing of the data so that the value which we obtain after
+researching is used for development of the society.
+
+1. Education analysis 
+2. Social analysis
+3. Financial analysis
+4. Planning analysis
+
+1. Education analysis 
+
+	Module          : Education
+	Schema(columns) : Gender, education, age, citizenship, weeks-worked
+
+2. Social analysis
+	Module          : Social
+	Schema(columns) : Martial-status, gender, parents, weeks-worked,
+3. Financial analysis
+4. Planning analysis
+
+Employeement analysis :
+	Module          : Employeement
+	Schema(columns) : Citizenship, Number of weeks worked
+
+Age analysis :
+
+	Module 		: Age
+	Schema(columns) : Age, Gender, Education, Martial Status, Citizenship, Income, Weeks-worked
+
+	Age vs Income
+	Age vs Education *
+	Age vs Marital Status
+	Age vs Tax
+
+Income analysis :
+
+	Module          : Income
+	Schema(columns) : Income, Age, Education, Gender, Tax, Marital Status, Citizenship, Weeks-worked
+
+	Income vs Education *
+	Income vs Gender
+	Income vs Tax **
+	Income vs Weeks-worked ***
+
+Citizenship analysis :
+
+	Module          : Citizenship
+	Schema(columns) : Citizenship, Age, Gender, Education, Income, Tax, Weeks-worked
+
+	Citizenship vs Income *
+	Citizenship vs Education
+	Citizenship vs Tax **
+	Citizenship vs Weeks-worked ***
+ 
+
+Weeks-worked analysis :
+
+	Module          : Weeks-worked
+	Schema(columns) : Weeks-worked, Age, Income, Education, Tax, Gender, Marital Status
+
+	Weeks-worked vs Income *
+	Weeks-worked vs Education
+	Weeks-worked vs Marital Status **
+	Weeks-worked vs Tax ***
+
+1. By analyzing the age and the number of weeks worked, we can get insights on the mental health status and stress levels of different working individuals in our country. This helps the
+government to conduct various mental health awareness programmes which would ultimately improve the mental health of the working individuals.
+2. We need to analyze the tax amount paid and age to assess the financial preparedness of the population, especially in relation to retirement and emergency savings.
+3. Assess the financial preparedness of the population, especially in relation to retirement and emergency savings.
+4. Predicting unemployment and underemployment based on age helps the government anticipate the need for job creation and unemployment benefits.
+5. The government needs to project how much tax revenue will be collected in the future and how it may be impacted by demographic shifts. This helps in making informed decisions about public spending.
+6. With an aging population, healthcare needs will increase over time. This use case helps estimate how many people will need healthcare services, particularly long-term care and medical treatments.
+7. We need to forecast how many people will be available to work and which industries will face worker shortages. This is vital for job training, immigration policies, and economic growth strategies.
